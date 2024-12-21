@@ -1,0 +1,86 @@
+body {
+    font-family: 'Courier New', Courier, monospace;
+    background: linear-gradient(to right, #b3e0ff, #e6f7ff); /* Фон на всю сторінку */
+    margin: 0; /* Вимикає стандартні відступи */
+    height: 80vh; /* Висота на весь екран */
+}
+
+.auth-box {
+    background-color: #fff;
+    padding: 40px; /* Відступи всередині форми */
+    border-radius: 12px; /* Округлені краї */
+    width: 100%;
+    max-width: 300px; /* Максимальна ширина форми */
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1); /* Тінь навколо форми */
+    transition: all 0.3s ease; /* Плавна анімація при наведенні */
+    margin: 0 auto; /* Центрує форму на сторінці */
+    margin-top: 10vh; /* Відстань від верхнього краю */
+}
+
+.auth-box:hover {
+    transform: scale(1.05); /* Легке збільшення форми при наведенні */
+    box-shadow: 0 6px 18px rgba(0, 0, 0, 0.2); /* Збільшення тіні при наведенні */
+}
+
+.auth-box h2 {
+    text-align: center;
+    color: #6a3d90;
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+.form-group label {
+    color: #5a2e5f;
+    font-weight: bold;
+}
+
+.form-group input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #b39ddb;
+    border-radius: 6px;
+    margin-top: 5px;
+    font-size: 1rem;
+    box-sizing: border-box;
+}
+
+.auth-btn {
+    width: 100%;
+    background-color: #b39ddb;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 6px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.auth-btn:hover {
+    background-color: #7a42a1;
+    transform: scale(1.05);
+}
+
+/* Мобільна адаптивність */
+@media screen and (max-width: 480px) {
+    .auth-box {
+        width: 90%;
+        padding: 20px;
+    }
+
+    .auth-box h2 {
+        font-size: 1.2rem;
+    }
+
+    .form-group input {
+        font-size: 0.9rem;
+    }
+
+    .auth-btn {
+        font-size: 0.9rem;
+    }
+}
