@@ -11,11 +11,13 @@
 
 <body>
     <div class="menu">
-        <button>Каталог</button>
+    <a href="http://localhost/%D0%9E%D0%BD%D0%BB%D0%B0%D0%B9%D0%BD%20%D0%91%D1%96%D0%B1%D0%BB%D1%96%D0%BE%D1%82%D0%B5%D0%BA%D0%B0/%D0%A1%D1%82%D0%BE%D1%80%D1%96%D0%BD%D0%BA%D0%B0%20%D0%A2%D1%80%D0%B5%D1%82%D1%8C%D1%8F.php">
+  <button type="submit" class="auth-btn">Каталог</button>
+</a>
         <button>Інформація</button>
     </div>
 
-    <a href="http://localhost/%D0%9E%D0%BD%D0%BB%D0%B0%D0%B9%D0%BD%20%D0%91%D1%96%D0%B1%D0%BB%D1%96%D0%BE%D1%82%D0%B5%D0%BA%D0%B0/%D0%94%D1%80%D1%83%D0%B3%D0%B0%20%D1%81%D1%82%D0%BE%D1%80%D1%96%D0%BD%D0%BA%D0%B0%20%D1%81%D0%B0%D0%B9%D1%82%D1%83.php" class="profile-link"> <!-- Встановіть URL сторінки, на яку треба перейти -->
+    <a href="http://localhost/%D0%9E%D0%BD%D0%BB%D0%B0%D0%B9%D0%BD%20%D0%91%D1%96%D0%B1%D0%BB%D1%96%D0%BE%D1%82%D0%B5%D0%BA%D0%B0/Reg-Log/Reg.php" class="profile-link"> <!-- Встановіть URL сторінки, на яку треба перейти -->
         <div class="profile-icon">
             <img src="Зображення/1.jpg" alt="Профіль" class="icon-img">
         </div>

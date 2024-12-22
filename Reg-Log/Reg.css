@@ -1,0 +1,127 @@
+body {
+    font-family: 'Courier New', Courier, monospace;
+    background: linear-gradient(to right, #b3e0ff, #e6f7ff);
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.auth-box {
+    background-color: #fff;
+    padding: 40px;
+    border-radius: 12px;
+    width: 100%;
+    max-width: 300px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease;
+    margin: 0 auto;
+    margin-top: 20px;
+}
+
+.auth-box:hover {
+    transform: scale(1.05);
+    box-shadow: 0 6px 18px rgba(0, 0, 0, 0.2);
+}
+
+.auth-box h2 {
+    text-align: center;
+    color: #6a3d90;
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+.form-group label {
+    color: #5a2e5f;
+    font-weight: bold;
+}
+
+.form-group input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #b39ddb;
+    border-radius: 6px;
+    margin-top: 5px;
+    font-size: 1rem;
+    box-sizing: border-box;
+}
+
+.auth-btn {
+    width: 100%;
+    background-color: #b39ddb;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 6px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin: 8px 0; 
+}
+
+
+
+
+.auth-btn:hover {
+    background-color: #7a42a1;
+    transform: scale(1.05);
+}
+
+.switch-link {
+    display: block;
+    text-align: center;
+    margin-top: 15px;
+    color: #ffffff;
+    font-size: 1rem;
+    text-decoration: none;
+    padding: 10px;
+    border-radius: 6px;
+    background-color: #b39ddb;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.switch-link:hover {
+    background-color: #7a42a1;
+    transform: scale(1.05);
+}
+
+@media screen and (max-width: 480px) {
+    .auth-box {
+        width: 90%;
+        padding: 20px;
+    }
+
+    .auth-box h2 {
+        font-size: 1.2rem;
+    }
+
+    .form-group input {
+        font-size: 0.9rem;
+    }
+
+    .auth-btn {
+        font-size: 0.9rem;
+    }
+
+    .switch-link {
+        font-size: 0.9rem;
+    }
+}
+
+.message {
+    font-size: 16px;
+    margin-top: 10px;
+}
+
+.success-message {
+    color: green;
+}
+
+.error-message {
+    color: rgb(255, 4, 4);
+}

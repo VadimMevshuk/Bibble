@@ -1,0 +1,93 @@
+body {
+    font-family: 'Courier New', Courier, monospace;
+    background: linear-gradient(to right, #b3e0ff, #e6f7ff);
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.sidebar {
+    position: absolute;
+    top: 20px;
+    left: 750px;
+    background-color: #fff;
+    padding: 10px;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.sidebar .btn {
+    background-color: #b39ddb;
+    color: white;
+    border: none;
+    padding: 10px;
+    margin: 5px;
+    border-radius: 6px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.sidebar .btn:hover {
+    background-color: #7a42a1;
+    transform: scale(1.05);
+}
+
+.content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-left: 50px;
+    margin-top: 800px; 
+    width: 80%;
+}
+
+.book {
+    display: none;
+    flex-direction: column;
+    align-items: center;
+    background-color: white;
+    padding: 20px;
+    margin: 15px;
+    border-radius: 10px;
+    width: 250px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.book img {
+    width: 100%;
+    height: auto;
+    border-radius: 6px;
+}
+
+.book-title {
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: #6a3d90;
+}
+
+.book-meta {
+    font-size: 0.9rem;
+    color: #5a2e5f;
+    margin-top: 10px;
+}
+
+.book-description {
+    font-size: 0.9rem;
+    color: #4e2a84;
+    margin-top: 10px;
+    text-align: center;
+}
+
+@media screen and (max-width: 480px) {
+    .content {
+        margin-left: 0;
+        width: 100%;
+    }
+
+    .book {
+        width: 80%;
+    }
+}
